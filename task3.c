@@ -30,6 +30,7 @@ int main(int argc, char * argv[]) {
 		    exit(1);
 	    }
 
+
 	    int output_fd = open("result", O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	    if (output_fd < 0) {
 		    printf("Open output failed");
